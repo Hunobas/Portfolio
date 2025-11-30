@@ -11,10 +11,10 @@
 
 - **Unreal 5.4** 뱀파이어 서바이버 시스템을 2주 만에 아키텍처부터 설계
   - 오브젝트 풀링으로 GC 호출 **80% 감소** 달성
-  - DataAsset 기반 설계로 기획자 독립 작업 가능한 구조 구축
+  - `DataAsset` 기반 설계로 기획자 독립 작업 가능한 구조 구축
 
 - **Unity** 14개 언어 지원 폰트 시스템 설계
-  - ScriptableObject 기반 원클릭 폰트 머티리얼 생성
+  - `ScriptableObject` 기반 원클릭 폰트 머티리얼 생성
   - 언어 변경 시 전체 UI 동적 교체 시스템 구현
 
 - **상용 게임 출시 경험** (Dreamotion 인턴십)
@@ -35,14 +35,14 @@
 > 개발기간 : 2025.07.01 ~ 2025.11.25
 > 
 > **📊 핵심 성과**
-> - FSM 기반 GameState로 **상태 충돌 버그 제거**
-> - 패널 가상 커서 시스템으로 크로스헤어와 **완전 분리된 UI 조작** 구현
-> - Custom NodeGraph 확장으로 **다중 파라미터 메서드 호출** 지원
+> - FSM 기반 플레이 모드 구분으로 **상태 충돌 버그 제거**
+> - 패널 가상 커서 시스템으로 인게임 크로스헤어와 **분리된 UI 조작** 구현
+> - 이벤트 그래프의 커스텀 노드 확장으로 **다중 파라미터 메서드 호출** 지원
 
 > **🛠 기술적 도전**
-> - Unity AsyncGPUReadback 기반 [ASCII 아트 렌더러 플러그인](https://github.com/Hunobas/AsciiImageUGUI-UPM) 개발
->   - CPU 시간 **92% 감소**, 프레임 내 비중 **95% 감소**
->   - 색 구간 병합 + 12bit 양자화로 문자열 길이 최적화
+> - [**ASCII 아트 렌더러 플러그인**](https://github.com/Hunobas/AsciiImageUGUI-UPM) 개발
+>   - CPU 점유 **92% 감소**, 프레임 내 비중 **95% 감소**
+>   - AsyncGPUReadback 기반 + 색 구간 12bit 양자화로 CPU 점유율 최적화 경험
 > 
 > [프로젝트 상세 설명](https://github.com/Hunobas/Song-Of-Jupitor)
 
@@ -95,11 +95,11 @@
 <img width="1042" height="587" alt="image" src="https://github.com/user-attachments/assets/8ea2a253-b519-4eda-ae3d-5767059cb9c1" />
 
 > 웹기반 2인 협동 시뮬레이션 게임
->
-> - 개발기간 : 2024.04.18 ~ 2024.5.25
-> - 핵심 역할 : 백엔드 테크 리드 역할을 맡으며 웹기반 게임의 리버스 프록시 아키텍처를 설계하고, 모션 캡처 라이브러리 연동 및 데디케이트 서버를 구현했습니다.
-> - Language : Typescript, Python, NGINX
-> - Skill : React, nestJS, flask, NGINX, AWS
+> 개발기간 : 2024.04.18 ~ 2024.5.25
+> 
+> - **핵심 역할** : 백엔드 테크 리드 역할을 맡으며 웹기반 게임의 리버스 프록시 아키텍처를 설계하고, 모션 캡처 라이브러리 연동 및 데디케이트 서버를 구현했습니다.
+> - **Language** : Typescript, Python, NGINX
+> - **Skill** : React, nestJS, flask, NGINX, AWS
 >
 > [프로젝트 상세 설명](https://github.com/younggun339/jungleTwo)
 
