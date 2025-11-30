@@ -13,7 +13,7 @@
 
 # 📝 Projects
 6개월동안 _PAGE25_ 팀에서 인디 게임 **목성의 노래**의 서브 프로그래머를 맡아 Unity 작업을 수행했습니다.
-<br /> 또한, 3개월동안 크래프톤 산하의 게임업체 _Dreamotion_에서 **My Little Puppy**의 클라이언트 개발을 보조하며 인턴십을 수행했습니다.
+<br /> 또한, 3개월동안 크래프톤 산하의 게임업체 _Dreamotion_ 에서 **My Little Puppy**의 클라이언트 개발을 보조하며 인턴십을 수행했습니다.
 
 ## 1. 🪐목성의 노래 
 
@@ -26,7 +26,7 @@
 >> - Engine : Unity 2022.3.62f2
 >> - Skill : C#, URP, UGUI, GameMode FSM, Panel Interaction System(Drag & Drop), Custom Node Event Graph, Custom Render Effects, Localization System, Github
 >> 
->> [프로젝트 상세 설명]()  
+>> [프로젝트 상세 설명](https://github.com/Hunobas/Song-Of-Jupitor/tree/main)
 
 <br />
 
