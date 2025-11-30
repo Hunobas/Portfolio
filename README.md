@@ -40,7 +40,7 @@
 > - Engine : Unity 2022.3.62f2
 > - Skill : C#, URP, UGUI, TextMeshPro, FSM, Coroutine, Localization System, Jenkins (CI/CD), Custom Editor Tools, TortoiseSVN
 >
-> [프로젝트 상세 설명]()
+> [프로젝트 상세 설명](https://ethereal-judo-1f1.notion.site/My-Little-Puppy-1c6486e2cdb980fcbc33f487a01bd7fc)
 
 <br />
 
