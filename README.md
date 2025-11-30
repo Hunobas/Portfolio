@@ -7,12 +7,19 @@
 
 # 👨🏻‍💻 About me
 
-저는 Unity/Unreal 기반 게임플레이 시스템을 직접 설계하며
-<br /> 버그가 적고 디버깅이 쉬운 구조를 만드는 데 강점을 가진 개발자입니다.
+**"기획자가 코드 수정 없이 밸런싱할 수 있는 구조"**를 만드는 개발자입니다.
 
-- 플레이 흐름 전체를 안정화하는 구조 설계 경험.
-- 기획 변경에 빠르게 대응 가능한 엔진 툴링/자동화/편의성 개선 개발을 즐김.
-- 실제 상업 프로젝트 출시(데모)까지 경험하며 현업 파이프라인에 익숙함.
+- **Unreal 5.4** 뱀파이어 서바이버 시스템을 2주 만에 아키텍처부터 설계
+  - 오브젝트 풀링으로 GC 호출 **80% 감소** 달성
+  - DataAsset 기반 설계로 기획자 독립 작업 가능한 구조 구축
+
+- **Unity** 14개 언어 지원 폰트 시스템 설계
+  - ScriptableObject 기반 원클릭 폰트 머티리얼 생성
+  - 언어 변경 시 전체 UI 동적 교체 시스템 구현
+
+- **상용 게임 출시 경험** (Dreamotion 인턴십)
+  - 알파 테스트부터 데모 출시까지 전체 파이프라인 경험
+  - QA 15회, 버그 리포트 103건 처리
 
 <br />
 
@@ -25,15 +32,19 @@
 <img width="1182" height="658" alt="그림4" src="https://github.com/user-attachments/assets/b1f7e2f7-c323-4cc9-83a8-179168f10707" />
 
 > 내러티브 1인칭 3D 퍼즐 게임
->
-> - 개발기간 : 2025.07.01 ~ 2025.11.25
-> - 핵심 역할 : 클라이언트 개발을 맡아 게임 흐름 FSM 구축, 사인파 퍼즐 로직, 패널의 가상 커서 드래그 & 드랍 시스템, 로컬라이징, `SliceGlitch/ASCIIImage/MotionBlur` 셰이더을 구현했습니다.
->
->> 게임 클라이언트
->> - Engine : Unity 2022.3.62f2
->> - Skill : C#, URP, UGUI, GameMode FSM, Panel Interaction System(Drag & Drop), Custom Node Event Graph, Custom Render Effects, Localization System, Github
->> 
->> [프로젝트 상세 설명](https://github.com/Hunobas/Song-Of-Jupitor/tree/main)
+> 개발기간 : 2025.07.01 ~ 2025.11.25
+> 
+> **📊 핵심 성과**
+> - FSM 기반 GameState로 **상태 충돌 버그 제거** (Normal/Panel/Cinema/Pause 모드 관리)
+> - 패널 가상 커서 시스템으로 크로스헤어와 **완전 분리된 UI 조작** 구현
+> - Custom NodeGraph 확장으로 **다중 파라미터 메서드 호출** 지원
+
+> **🛠 기술적 도전**
+> - Unity AsyncGPUReadback 기반 [ASCII 아트 렌더러 플러그인](https://github.com/Hunobas/AsciiImageUGUI-UPM) 개발
+>   - CPU 시간 **92% 감소**, 프레임 내 비중 **95% 감소**
+>   - 색 구간 병합 + 12bit 양자화로 문자열 길이 최적화
+> 
+> [프로젝트 상세 설명](https://github.com/Hunobas/Song-Of-Jupitor)
 
 <br />
 
@@ -42,11 +53,17 @@
 <img width="1663" height="833" alt="image" src="https://github.com/user-attachments/assets/d69b7157-1993-49a6-938b-400d243f0c00" />
 
 > 3D 탑다운 로그라이크 슈팅 게임
+> 개발기간 : 2025.04.15 ~ 2025.07.01
 >
-> - 개발기간 : 2025.04.15 ~ 2025.07.01
-> - 핵심 역할 : 1인 프로젝트로 기획/모델링/개발을 도맡아 구현했으며 객체 지향 모듈화 구조와 데이터 기반 설계를 중점적으로 구현했습니다.
-> - Engine : Unreal 5.4.3
-> - Skill : C++, Unreal5.4, Object Pooling, Data Driven Design, UMG, Enhanced Input, Niagara System, Github
+> **📊 핵심 성과**
+> - 커스텀 오브젝트 풀링으로 **GC 호출 빈도 80% 감소**
+> - 기획자 친화적 `DataAsset` 설계로 **코드 수정 없이 무기/몬스터 추가 가능**
+> - 마우스 회전 기반 요일 변화 시스템으로 차별화된 게임플레이 구현
+>
+> **🛠 기술적 도전**
+> - 모듈형 리워드 시스템: 3단계 책임 분리 + 인터페이스 다형성
+> - 전략 패턴 기반 AI: 유니크 포인터로 런타임 전략 교체
+> - Data-Driven 설계: `FRuntimeFloatCurve` 기반 웨이브 난이도 실시간 조절
 >
 > [프로젝트 상세 설명](https://github.com/Hunobas/Planet)
 
@@ -57,11 +74,17 @@
 ![그림5](https://github.com/user-attachments/assets/2282e694-733e-4fde-b230-28a5b101ba55)
 
 > 내러티브 3인칭 3D 어드벤처 게임
+> 개발기간 : 2025.01.02 ~ 2025.03.31
+> 
+> **📊 핵심 성과**
+> - 14개 언어 지원 시스템 구축 → **언어 관련 버그 0건**으로 데모 출시
+> - FPS 히트맵 자동 생성기로 **QA 병목 구간 시각화**
+> - QA 15회, 버그/폴리싱 103건 제출
 >
-> - 개발기간 : 2025.01.02 ~ 2025.03.31
-> - 핵심 역할 : 클라이언트 개발 인턴십을 수행하며 다국어 지원을 맡아 기존 다국어 자동화 시스템을 안정적으로 확장하여 언어 관련 버그 없이 성공적으로 데모 빌드를 출시했습니다.
-> - Engine : Unity 2022.3.18f1
-> - Skill : C#, URP, UGUI, TextMeshPro, FSM, Coroutine, Localization System, Jenkins (CI/CD), Custom Editor Tools, TortoiseSVN
+> **🛠 기술적 기여**
+> - ScriptableObject 기반 폰트 머티리얼 관리 시스템
+> - 언어 변경 시 전체 UI Layer 폰트 일괄 교체
+> - 유럽권 특수 구분자 파싱 오류 해결
 >
 > [프로젝트 상세 설명](https://ethereal-judo-1f1.notion.site/My-Little-Puppy-1c6486e2cdb980fcbc33f487a01bd7fc)
 
