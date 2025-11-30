@@ -17,6 +17,8 @@
 
 ## 1. 🪐목성의 노래 
 
+<img width="1182" height="658" alt="그림4" src="https://github.com/user-attachments/assets/b1f7e2f7-c323-4cc9-83a8-179168f10707" />
+
 > 내러티브 1인칭 3D 퍼즐 게임 _(PAGE25)_
 >
 > - 개발기간 : 2025.07.01 ~ 2025.11.25
@@ -32,6 +34,8 @@
 
 ## 2. 🌏 TOGU : Planet Survivors
 
+<img width="1663" height="833" alt="image" src="https://github.com/user-attachments/assets/d69b7157-1993-49a6-938b-400d243f0c00" />
+
 > 3D 탑다운 로그라이크 슈팅 게임 _개인 프로젝트_
 >
 > - 개발기간 : 2025.04.15 ~ 2025.07.01
@@ -44,6 +48,8 @@
 <br />
 
 ## 3. 🐶 My Little Puppy
+
+![그림5](https://github.com/user-attachments/assets/2282e694-733e-4fde-b230-28a5b101ba55)
 
 > 내러티브 3인칭 3D 어드벤처 게임 _Dreamotion_
 >
