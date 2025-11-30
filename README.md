@@ -30,20 +30,7 @@
 
 <br />
 
-## 2. 🐶 My Little Puppy
-
-> 내러티브 3인칭 3D 어드벤처 게임 _Dreamotion_
->
-> - 개발기간 : 2025.01.02 ~ 2025.03.31
-> - 핵심 역할 : 클라이언트 개발 인턴십을 수행하며 다국어 지원을 맡아 기존 다국어 자동화 시스템을 안정적으로 확장하여 언어 관련 버그 없이 성공적으로 데모 빌드를 출시했습니다.
-> - Engine : Unity 2022.3.62f2
-> - Skill : C#, URP, UGUI, TextMeshPro, FSM, Coroutine, Localization System, Jenkins (CI/CD), Custom Editor Tools, TortoiseSVN
->
-> [프로젝트 상세 설명](https://ethereal-judo-1f1.notion.site/My-Little-Puppy-1c6486e2cdb980fcbc33f487a01bd7fc)
-
-<br />
-
-## 3. 🌏 TOGU : Planet Survivors
+## 2. 🌏 TOGU : Planet Survivors
 
 > 3D 탑다운 로그라이크 슈팅 게임 _개인 프로젝트_
 >
@@ -53,6 +40,19 @@
 > - Skill : C++, Unreal5.4, Object Pooling, Data Driven Design, UMG, Enhanced Input, Niagara System, Github
 >
 > [프로젝트 상세 설명](https://github.com/Hunobas/Planet)
+
+<br />
+
+## 3. 🐶 My Little Puppy
+
+> 내러티브 3인칭 3D 어드벤처 게임 _Dreamotion_
+>
+> - 개발기간 : 2025.01.02 ~ 2025.03.31
+> - 핵심 역할 : 클라이언트 개발 인턴십을 수행하며 다국어 지원을 맡아 기존 다국어 자동화 시스템을 안정적으로 확장하여 언어 관련 버그 없이 성공적으로 데모 빌드를 출시했습니다.
+> - Engine : Unity 2022.3.62f2
+> - Skill : C#, URP, UGUI, TextMeshPro, FSM, Coroutine, Localization System, Jenkins (CI/CD), Custom Editor Tools, TortoiseSVN
+>
+> [프로젝트 상세 설명](https://ethereal-judo-1f1.notion.site/My-Little-Puppy-1c6486e2cdb980fcbc33f487a01bd7fc)
 
 <br />
 
