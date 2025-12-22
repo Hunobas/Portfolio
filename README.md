@@ -24,10 +24,30 @@
 <br />
 
 # 📝 Projects
-6개월동안 _PAGE25_ 팀에서 인디 게임 **목성의 노래**의 서브 프로그래머를 맡아 Unity 작업을 수행했습니다.
-<br /> 또한, 3개월동안 크래프톤 산하의 게임업체 _Dreamotion_ 에서 **My Little Puppy**의 클라이언트 개발을 보조하며 인턴십을 수행했습니다.
 
-## 1. 🪐목성의 노래 | _PAGE25_
+## 1. 🏹 Archer Of God | _개인 프로젝트_
+
+![VideoProject3-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/79d28270-2b2f-4e05-a43a-5386961ffd25)
+
+> 모바일 2D 아케이드 액션 게임 | 개발기간 : 2024.12 (3일)
+> 
+> **📊 핵심 성과**
+> - 오브젝트 풀링으로 GC Alloc 호출 최소화, 프레임 퍼포먼스 **33% 향상**
+> - `SkillBlocks` 모듈화로 **스킬 조합 코드 70% 감소**, 신규 스킬 추가 시간 단축
+> - `ScriptableObject` 기반 설계로 기획자가 **코드 수정 없이** 밸런싱 가능한 구조 구축
+>
+> **🛠 기술적 도전**
+> - **전투/스킬 시스템 설계**
+>   - `ISkill` 인터페이스 + `SkillBlocks` 정적 메서드 조합으로 콤보 스킬 구현
+>   - 탄도 계산(`BallisticSolution`) 기반 곡사 투사체 시스템
+>   - 버프/실드/회복 등 효과를 블록 단위로 분리하여 재사용성 확보
+> - **제네릭 오브젝트 풀링 시스템**
+>   - `Pool<T>` + `PoolManager` 2계층 구조로 타입 안전성과 자동 반납 추적 구현
+>   - `Prewarm` 사전 생성으로 런타임 히치 방지
+>
+> [프로젝트 상세 설명](https://github.com/Hunobas/ArcherOfGod)
+
+## 2. 🪐목성의 노래 | _PAGE25_
 
 <img width="1182" height="658" alt="그림4" src="https://github.com/user-attachments/assets/b1f7e2f7-c323-4cc9-83a8-179168f10707" />
 
@@ -44,26 +64,6 @@
 >   - AsyncGPUReadback 기반 + 색 구간 12bit 양자화로 CPU 점유율 최적화 경험
 > 
 > [프로젝트 상세 설명](https://github.com/Hunobas/Song-Of-Jupitor)
-
-<br />
-
-## 2. 🌏 TOGU : Planet Survivors | _개인 프로젝트_
-
-<img width="1663" height="833" alt="image" src="https://github.com/user-attachments/assets/d69b7157-1993-49a6-938b-400d243f0c00" />
-
-> 3D 탑다운 로그라이크 슈팅 게임 | 개발기간 : 2025.04.15 ~ 2025.07.01
->
-> **📊 핵심 성과**
-> - 커스텀 오브젝트 풀링으로 **GC 호출 빈도 80% 감소**
-> - 기획자 친화적 `DataAsset` 설계로 **코드 수정 없이 무기/몬스터 추가 가능**
-> - 마우스 회전 기반 요일 변화 시스템으로 차별화된 게임플레이 구현
->
-> **🛠 기술적 도전**
-> - 모듈형 리워드 시스템: 3단계 책임 분리 + 인터페이스 다형성
-> - 전략 패턴 기반 AI: 유니크 포인터로 런타임 전략 교체
-> - Data-Driven 설계: `FRuntimeFloatCurve` 기반 웨이브 난이도 실시간 조절
->
-> [프로젝트 상세 설명](https://github.com/Hunobas/Planet)
 
 <br />
 
