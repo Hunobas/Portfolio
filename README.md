@@ -41,8 +41,6 @@ Little Devil Inside의 트레일러에서 가장 인상적이었던 건 **자유
 
 <img width="1020" height="458" alt="FSM 구조도" src="https://github.com/user-attachments/assets/d0b930d5-8c1a-4120-8fbd-e9b4ee1dfc44" />
 
-**목성의 노래** — Unity 기반 1인칭 퍼즐 어드벤처 (팀 프로젝트, 5명)
-
 재활용되는 4가지 주요 플레이 모드(Normal/Panel/Cinema/Pause)로 명확하게 구분하여 모드 간 전환 중에 조작 불가 버그가 발생하는 문제를 해결했습니다.
 <br /> 또한, 게임 흐름 중간에 미니 게임 모드가 있어 추가적인 플레이 모드가 요구되어도 빠르게 확장할 수 있는 구조를 설계했습니다.
 
